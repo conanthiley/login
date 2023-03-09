@@ -7,7 +7,7 @@ const session = require("express-session");
 
 mongoose
   .connect(
-    "mongodb+srv://nicholasch24:hunter1224@cluster0.uuyxsu9.mongodb.net/authDemo",
+    "mongodb+srv://nicholasch24:<password>@cluster0.uuyxsu9.mongodb.net/authDemo",
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => {
